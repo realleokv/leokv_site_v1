@@ -25,7 +25,7 @@ describe('contato sem envio automático', () => {
     expect(screen.getByRole('status').textContent).toContain('ainda não foi enviada');
     fireEvent.click(screen.getByRole('button', { name: 'Copiar mensagem' }));
     await waitFor(() => expect(writeText).toHaveBeenCalledTimes(1));
-    expect(screen.getByRole('link', { name: 'Abrir Instagram' }).getAttribute('href')).toBe('https://www.instagram.com/realleocarvalho/');
+    expect(screen.getByRole('link', { name: 'Abrir Instagram' }).getAttribute('href')).toBe('https://www.instagram.com/realleokv/');
   });
   it('oferece cópia manual se a área de transferência estiver indisponível', async () => {
     Object.defineProperty(navigator, 'clipboard', { configurable: true, value: { writeText: vi.fn().mockRejectedValue(new Error('blocked')) } });

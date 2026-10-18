@@ -1,13 +1,13 @@
 export const site = {
   name: 'Leonardo Carvalho',
-  shortName: 'Leo',
+  shortName: 'Leo KV',
   role: 'Designer & desenvolvedor',
   location: 'São Paulo, Brasil',
   origin: 'Zona Leste',
-  instagram: 'https://www.instagram.com/realleocarvalho/',
-  instagramHandle: '@realleocarvalho',
+  instagram: 'https://www.instagram.com/realleokv/',
+  instagramHandle: '@realleokv',
   github: 'https://github.com/realleokv',
-  email: '',
+  email: 'realleokv@gmail.com',
   // Opcional: coloque um GLB em public/models e informe /models/arquivo.glb.
   modelUrl: '',
   dracoPath: '/draco/',
