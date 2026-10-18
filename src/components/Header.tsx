@@ -48,7 +48,7 @@ export function Header() {
     <header className="header" inert={!ready}>
       <Link to="/" className="brand" aria-label="Leonardo Carvalho, início" data-cursor="LINK"
         onClick={() => { setOpen(false); if (location.pathname === '/') scrollTo(0); }}>
-        <span className="brand-mark">lc<span>↗</span></span>
+        <span className="brand-mark">lkv<span>↗</span></span>
         <span className="brand-name">LEONARDO<br />CARVALHO</span>
       </Link>
       <div className="header-note mono"><span className="status-dot" />DISPONÍVEL PARA IDEIAS</div>
